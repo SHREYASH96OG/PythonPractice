@@ -8,3 +8,6 @@ name = "Shreyash\n"
 # method3
 # In this method we should put after string \n
 # print(name*5)
+#method4
+#print("hi")
+#print("welcome to gthub")
