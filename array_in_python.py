@@ -5,5 +5,5 @@ print(numbers)
 
 # method:2
 import numpy as np
-nummber = np.array([1,2,3,4,5,6]) #THIS method don't need to mentioned the datatype
+nummber = np.array([1,2,3,4,5,6,'hi']) #THIS method don't need to mentioned the datatype & also is support element with different datatype
 print(number)
