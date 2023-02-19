@@ -9,6 +9,8 @@
 
 # Explanation: There are 4 words in the given input, with a total of 14 letters, so the average length will be: 14/4 = 3.5
 
+#Ans:
+
 n = input()
 s = n.split()
 l = len(s)
