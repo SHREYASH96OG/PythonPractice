@@ -20,3 +20,10 @@ s1.render()
 # create an object of Circle
 c1 = Circle()
 c1.render()
+
+
+"""
+O/P-->
+Rendering Square...
+Rendering Circle...
+"""
