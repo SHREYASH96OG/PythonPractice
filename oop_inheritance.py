@@ -1,19 +1,33 @@
-class books:
-  
-  def education(self):
-    print("Generally all books are Educational")
-  
-  def novel(self):
-    print("Books which tells story")
+# base class
+class Animal:
     
+    def eat(self):
+        print( "I can eat!")
     
-class classics(books):
-  
-  
-  def Antiquarian(self):
-    print("(Antiquarian)This are books which tells about all history ")
+    def sleep(self):
+        print("I can sleep!")
+
+# derived class
+class Dog(Animal):
     
-    
-book1 = books()
-book1.education()
-book1.antiquarian()
+    def bark(self):
+        print("I can bark! Woof woof!!")
+
+# Create object of the Dog class
+dog1 = Dog()
+
+# Calling members of the base class
+dog1.eat()
+dog1.sleep()
+
+# Calling member of the derived class
+dog1.bark();
+
+
+"""
+o/p
+I can eat!
+I can sleep!
+I can bark! Woof woof!!
+
+"""
